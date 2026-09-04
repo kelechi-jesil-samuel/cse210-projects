@@ -28,8 +28,9 @@ class Program
         Random randomGenerator = new Random();
         int number = randomGenerator.Next(1, 11);
         */
+        Random randomGenerator = new Random();
         Console.WriteLine("WELCOME TO GUESS GAME");
-        int magic_number = 7;
+        int magic_number = randomGenerator.Next(1, 100);
         int guess_number;
             
                 Console.WriteLine("what is  your magic number: ");

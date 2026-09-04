@@ -6,21 +6,37 @@ class Program
     {
         Console.WriteLine("Enter  your grade? ");
         string grade = Console.ReadLine();
-        int score = int.Parse(grade);
+        float score = float.Parse(grade);
         String latter = "";
-
-        if (score >= 90)
+        
+        if (score >=95)
+        {
+            latter = "A+";
+        }
+        else if (score >= 90)
         {
             latter = "A";
            
+        }
+        else if (score >= 85)
+        {
+            latter = "B+";
         }
         else if (score >= 80)
         {
             latter = "B";
         }
+        else if (score >= 75)
+        {
+            latter ="C+";
+        }
         else if (score >= 70)
         {
-            latter ="C";
+            latter = "C";
+        }
+        else if (score >= 65)
+        {
+            latter = "D+";
         }
         else if (score >= 60)
         {
@@ -39,8 +55,10 @@ class Program
         }
         else
         {
+            latter = "F";
             Console.WriteLine("you failed. try again");
         }
+        
 
     }
 }
