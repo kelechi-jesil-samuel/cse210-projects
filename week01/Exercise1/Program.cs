@@ -8,12 +8,12 @@ class Program
     {
         // note console.writeline is print statement
         Console.WriteLine("wHat is your first name? ");
-        string first_name = Console.ReadLine();
+        string firstname = Console.ReadLine();
 
         Console.WriteLine("What is your last name ? ");
-        string last_name = Console.ReadLine();
+        string lastname = Console.ReadLine();
 
-        Console.WriteLine($"your name is {first_name}, {first_name} {last_name}");
+        Console.WriteLine($"your name is {firstname}, {firstname} {lastname}");
 
        
 

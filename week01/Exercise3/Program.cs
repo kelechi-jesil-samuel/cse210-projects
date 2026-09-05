@@ -33,9 +33,6 @@ class Program
         int magic_number = randomGenerator.Next(1, 100);
         int guess_number;
             
-                Console.WriteLine("what is  your magic number: ");
-                string magic = Console.ReadLine();
-                magic_number = int.Parse(magic);
                 while(true)
                 {
                     Console.WriteLine("what is your guess number: ");
